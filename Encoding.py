@@ -27,7 +27,7 @@ def clean_text(text):
 
 try:
     # Attempt to read with specified encoding
-    df = pd.read_csv('/Volumes/Kraishan 1/TTU//Thesis/NEW/Pakistan/FloodsInPakistan-tweets.csv', encoding='mac_roman')
+    df = pd.read_csv('/FloodsInPakistan-tweets.csv', encoding='mac_roman')
 except Exception as e:
     print(f"Error reading file: {e}")
 
@@ -35,4 +35,4 @@ except Exception as e:
 df['content'] = df['content'].apply(clean_text)
 
 # Save the cleaned data
-df.to_csv('/Volumes/Kraishan 1/TTU//Thesis/NEW/Pakistan/CleanedFloodsInPakistan-tweets.csv', index=False, encoding='utf-8-sig')
+df.to_csv('/CleanedFloodsInPakistan-tweets.csv', index=False, encoding='utf-8-sig')
