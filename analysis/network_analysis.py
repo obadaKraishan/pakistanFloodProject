@@ -56,7 +56,7 @@ class NetworkAnalysis:
         plt.title("Twitter Interaction Network")
 
         # Specify the filename and path where you want to save the plot
-        plt.savefig('/Volumes/Kraishan 1/TTU//Thesis/NEW/Pakistan/twitter_interaction_network.png', format='png', dpi=300)
+        plt.savefig('/twitter_interaction_network.png', format='png', dpi=300)
 
         # Display the plot
         plt.show()
@@ -71,7 +71,7 @@ class NetworkAnalysis:
 # Example usage
 if __name__ == "__main__":
     # Load your dataset here
-    dataset_path = '/Volumes/Kraishan 1/TTU//Thesis/NEW/Pakistan/ProcessedFloodsInPakistan-tweets.xlsx'
+    dataset_path = '/ProcessedFloodsInPakistan-tweets.xlsx'
     tweets_df = pd.read_csv(dataset_path)
     analysis = NetworkAnalysis(tweets_df)
     analysis.perform_all_analyses()

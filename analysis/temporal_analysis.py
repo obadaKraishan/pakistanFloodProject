@@ -106,4 +106,3 @@ class TemporalAnalysis:
         self.sentiment_over_time()
         self.high_engagement_over_time()
         print("Temporal Analysis Completed.")
-        
