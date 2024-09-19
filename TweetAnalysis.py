@@ -65,6 +65,6 @@ class TweetAnalysis:
 
 # Example usage
 if __name__ == "__main__":
-    processed_dataset_path = '/Volumes/Kraishan 1/TTU//Thesis/NEW/Pakistan/ProcessedFloodsInPakistan-tweets.xlsx'
+    processed_dataset_path = '/ProcessedFloodsInPakistan-tweets.xlsx'
     analysis = TweetAnalysis(processed_dataset_path)
     analysis.perform_all_analyses()
