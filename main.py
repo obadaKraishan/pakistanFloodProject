@@ -6,7 +6,7 @@ from analysis.network_analysis import NetworkAnalysis
 import pandas as pd
 
 if __name__ == "__main__":
-    processed_dataset_path = '/Volumes/Kraishan/TTU//Thesis/NEW/Pakistan/ProcessedFloodsInPakistan-tweets.xlsx'
+    processed_dataset_path = 'DS_PATH'
 
     # Assuming the ContentAnalysis class handles loading the dataset, you might not need to load it again here.
 
