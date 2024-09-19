@@ -265,8 +265,8 @@ class DataPreprocessor:
 
 # Example usage
 if __name__ == "__main__":
-    dataset_path = '/Volumes/Kraishan 1/TTU//Thesis/NEW/Pakistan/PakistanFloodsAppeal-tweets.csv'  # Replace with your dataset's path
-    preprocessed_path = '/Volumes/Kraishan 1/TTU//Thesis/NEW/Pakistan/ProcessedFloodsInPakistan-tweets.csv'  # Desired path for the preprocessed data
+    dataset_path = '/PakistanFloodsAppeal-tweets.csv'  # Replace with your dataset's path
+    preprocessed_path = '/ProcessedFloodsInPakistan-tweets.csv'  # Desired path for the preprocessed data
 
     preprocessor = DataPreprocessor(dataset_path)
     preprocessor.preprocess()  # Perform preprocessing
